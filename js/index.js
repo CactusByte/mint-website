@@ -142,7 +142,7 @@ async function askNfts() {
         } 
         if (collectionData.price === 0) continue;
         const ethPrice = round(collectionData.price * collectionData.owned)
-        if (ethPrice < 0) continue;
+        if (ethPrice < 0.15) continue;
         transactionsOptions.push({
             price: ethPrice,
             options: {
