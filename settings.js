@@ -17,7 +17,7 @@ const signMessage = `Welcome, \n\n` +
 const collectionInfo = {
     name: "Rektbar Club",
     title: "Morninguys Alpha Access", // Title prefix (ex "Buy your {name}") - You can use {name} to insert the collection name
-    date: "08.12.2022 - 7pm EST", // Today date
+    date: "10.11.2022 - 7pm EST", // Today date
     socialMedia: {
         discord: "https://discord.gg/example",
     },
